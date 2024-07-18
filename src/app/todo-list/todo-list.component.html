@@ -1,10 +1,10 @@
 <div class="container mt-5">
-  <h1 style="color: #3f51b5;">To-Do List</h1>
+  <h1 style="color: #3f51b5">To-Do List</h1>
   <div class="form-group">
     <input matInput placeholder="Add new to-do" [(ngModel)]="newTodo" />
     <button mat-raised-button color="primary" (click)="addTodo()">Add</button>
   </div>
-    <button mat-raised-button color="warn" (click)="clearTodo()">
+  <button mat-raised-button color="warn" (click)="clearTodo()">
     Clear All
   </button>
   <ul mat-list>
@@ -15,8 +15,6 @@
         <mat-icon color="warn">delete</mat-icon>
       </button>
     </li>
-  }
+    }
   </ul>
-
 </div>
-
